@@ -1,0 +1,181 @@
+﻿* {
+  outline: none;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background: url('../img/header-bg.jpg') no-repeat;
+  background-size: cover;
+  min-height: 400px;
+}
+
+/* General styles START */
+.header_heading {
+  padding-top: 120px;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.linear-gradient {
+  background-image: linear-gradient(to right, #2d3272, #2d3271, #2d3271, #2d3170, #2e2f68, #302d66, #312c64,
+  #342a5f, #332c62, #3b2b5b, #39295a, #3b2959);
+}
+
+button.rounded-sides {
+  border-radius: 20px;
+}
+
+.bg-black {
+  background: black;
+}
+
+.width-45 {
+  width: 45%;
+}
+
+.container {
+  width: 90%;
+  max-width: 1024px;
+}
+
+.reference_image img:hover, section.works .section_card img:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
+/* Services END */
+
+/* Services START */
+section.services .section_card img {
+  max-width: 35%;
+}
+/* Services END */
+
+/* Works START */
+section.works .section_card img {
+  max-width: 100%;
+}
+/* Services END */
+
+/* NavBar START */
+.navbar-brand img {
+  max-width: 60%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+  opacity: 0.8;
+}
+
+.navbar-brand:hover {
+  opacity: 0.8;
+}
+/* NavBar END */
+
+/* Sections General START */
+.section_header p.text-secondary, .section_header h2.text-secondary {
+  position: relative;
+}
+
+.section_header p.text-secondary::after, .section_header h2.text-secondary::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  background: #343a40;
+  top: 100%;
+  width: 80%;
+  left: 50%;
+  margin-top: 6px;
+  transform: translateX(-50%);
+}
+/* Sections General END */
+
+/* Carousel START */
+.reference_image {
+  position: relative;
+  left: -16px;
+  background: url('../img/references-image-bg.png') no-repeat left bottom;
+  background-size: 50%;
+}
+
+.reference_image img {
+  max-width: 300px;
+}
+
+.reference_image {
+  position: relative;
+  transform: translateX(10%);
+}
+
+.carousel-indicators:hover {
+  cursor: pointer;
+}
+
+.carousel-indicators li {
+  background-color: #62436f;
+  width: 20px;
+  height: 20px;
+}
+
+.carousel-indicators li.active {
+  background-color: #62436f;
+  opacity: 0.8;
+}
+/* Carousel END */
+
+/* Footer Elements START*/
+.social img:hover {
+  opacity: 0.8;
+}
+/* Footer Elements END*/
+
+/* Fonts START */
+.text-gray {
+  color: lightgray;
+}
+p.description {
+  font-size: 14px;
+  font-weight: 300;
+  color: #6c757d;
+}
+
+.address {
+  line-height: 0.2;
+  font-size: 14px;
+}
+
+.contacts {
+  font-size: 14px;
+}
+
+.credits {
+  font-size: 10px;
+}
+
+.inputs input, textarea {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/* Fonts Sizes END */
+
+/* @media START */
+@media (max-width: 768px) {
+  .inputs input {
+    width: 100%;
+  }
+}
+/* @media END */
