@@ -7,4 +7,4 @@ slider
 2. CSS3
 3. BootStrap 4.6
 
-![Main Page](main.png);
+![Main Page](main.png)
